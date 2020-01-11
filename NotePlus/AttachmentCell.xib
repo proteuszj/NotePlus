@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="AttachmentCell" customModule="NotePlus" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="85" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vey-LQ-AA1">
+                    <rect key="frame" x="0.0" y="16" width="85" height="91"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="VPU-e3-vtk"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ww5-l8-eJK">
+                    <rect key="frame" x="24" y="0.0" width="37" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="FQY-0D-bf1">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Vey-LQ-AA1" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="7fw-GU-rdp"/>
+                <constraint firstItem="Vey-LQ-AA1" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="BNO-x5-M9R"/>
+                <constraint firstAttribute="trailing" secondItem="Vey-LQ-AA1" secondAttribute="trailing" id="SDg-K8-H3A"/>
+                <constraint firstItem="Vey-LQ-AA1" firstAttribute="centerX" secondItem="ww5-l8-eJK" secondAttribute="centerX" id="Un7-rP-t7g"/>
+                <constraint firstAttribute="bottom" secondItem="ww5-l8-eJK" secondAttribute="bottom" id="mLo-R3-Im5"/>
+                <constraint firstItem="ww5-l8-eJK" firstAttribute="top" secondItem="Vey-LQ-AA1" secondAttribute="bottom" id="tVt-em-Pep"/>
+            </constraints>
+            <point key="canvasLocation" x="-58.5" y="71.5"/>
+        </customView>
+        <collectionViewItem id="Isr-Md-4aW" customClass="AttachmentCell" customModule="NotePlus" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="Vey-LQ-AA1" id="3GC-Ox-cmh"/>
+                <outlet property="textField" destination="ww5-l8-eJK" id="lEH-Lj-GYM"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="lH7-2e-CaH"/>
+            </connections>
+        </collectionViewItem>
+    </objects>
+</document>

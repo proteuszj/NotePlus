@@ -14,6 +14,10 @@
 		60272DE623C3829D007C3960 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60272DE423C3829D007C3960 /* MainMenu.xib */; };
 		60272DF223C3829E007C3960 /* NotePlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60272DF123C3829E007C3960 /* NotePlusTests.swift */; };
 		60272DFD23C3829E007C3960 /* NotePlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60272DFC23C3829E007C3960 /* NotePlusUITests.swift */; };
+		6059B05123C96DA60024E505 /* AttachmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6059B04F23C96DA60024E505 /* AttachmentCell.swift */; };
+		6059B05223C96DA60024E505 /* AttachmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6059B05023C96DA60024E505 /* AttachmentCell.xib */; };
+		6059B05523C973150024E505 /* AddAttachmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6059B05323C973150024E505 /* AddAttachmentViewController.swift */; };
+		6059B05623C973150024E505 /* AddAttachmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6059B05423C973150024E505 /* AddAttachmentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		60272DF823C3829E007C3960 /* NotePlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotePlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60272DFC23C3829E007C3960 /* NotePlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePlusUITests.swift; sourceTree = "<group>"; };
 		60272DFE23C3829E007C3960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6059B04F23C96DA60024E505 /* AttachmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentCell.swift; sourceTree = "<group>"; };
+		6059B05023C96DA60024E505 /* AttachmentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttachmentCell.xib; sourceTree = "<group>"; };
+		6059B05323C973150024E505 /* AddAttachmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAttachmentViewController.swift; sourceTree = "<group>"; };
+		6059B05423C973150024E505 /* AddAttachmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddAttachmentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 				60272DDB23C3829D007C3960 /* AppDelegate.swift */,
 				60272DDD23C3829D007C3960 /* Document.swift */,
 				60272DDF23C3829D007C3960 /* Document.xib */,
+				6059B05323C973150024E505 /* AddAttachmentViewController.swift */,
+				6059B05423C973150024E505 /* AddAttachmentViewController.xib */,
+				6059B04F23C96DA60024E505 /* AttachmentCell.swift */,
+				6059B05023C96DA60024E505 /* AttachmentCell.xib */,
 				60272DE223C3829D007C3960 /* Assets.xcassets */,
 				60272DE423C3829D007C3960 /* MainMenu.xib */,
 				60272DE723C3829D007C3960 /* Info.plist */,
@@ -231,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6059B05223C96DA60024E505 /* AttachmentCell.xib in Resources */,
+				6059B05623C973150024E505 /* AddAttachmentViewController.xib in Resources */,
 				60272DE323C3829D007C3960 /* Assets.xcassets in Resources */,
 				60272DE123C3829D007C3960 /* Document.xib in Resources */,
 				60272DE623C3829D007C3960 /* MainMenu.xib in Resources */,
@@ -258,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6059B05123C96DA60024E505 /* AttachmentCell.swift in Sources */,
 				60272DDE23C3829D007C3960 /* Document.swift in Sources */,
 				60272DDC23C3829D007C3960 /* AppDelegate.swift in Sources */,
+				6059B05523C973150024E505 /* AddAttachmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
